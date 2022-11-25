@@ -2,10 +2,10 @@
 
 int main(){
    
-   //Compile time error
-   std::cout << "Hello Word!" << std::endl;
+   //Compile time error (doesnt compile)
+   std::cout << "Hello Word!" << std::endl
 
-   //Run time error
+   //Run time error (Compiles but when doesnt run properly)
    int value = 7/0;
    std::cout << "value : " << value << std::endl;
 
