@@ -27,3 +27,7 @@ int main(){
 
     return 0;
 }
+// A statement is a basic unit of computation in a C++ program
+// Statements end with a semicolon in C++(;)
+
+// Function must be defined before it is used
