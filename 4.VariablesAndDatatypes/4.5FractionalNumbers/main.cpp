@@ -1,7 +1,9 @@
 #include <iostream>
 #include <iomanip>
 
-
+// FLOAT: use float type and `f` at end of number
+// DOUBLE: use double type
+// LONG DOUBLE: use long double type and `L` at end
 
 int main(){
 
@@ -18,7 +20,7 @@ int main(){
 
 
     //Precision
-    std::cout << std::setprecision(20); // Control the precision from std::cout.
+    std::cout << std::setprecision(20); // make it so that numbers printed to cout have 20 decimal numbers
     std::cout << "number1 is : " << number1 << std::endl; //7 digits
     std::cout << "number2 is : " << number2 << std::endl; // 15'ish digits
     std::cout << "number3 is : " << number3 << std::endl; // 15+ digits
