@@ -1,5 +1,6 @@
 #include <iostream>
 
+// Can change value of variable throughout the program
 int main(){
 
 	int var1{123}; // Declare and initialize
