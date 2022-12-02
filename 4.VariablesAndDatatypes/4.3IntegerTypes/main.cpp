@@ -39,7 +39,7 @@ int main(){
     int fruit_count (apple_count + orange_count);
     //int bad_initialization ( doesnt_exist3 + doesnt_exist4 );
 
-    //Information lost. less safe than braced initializers
+    //Information lost. less safe than braced initializers (most likely will compile but will store 2 instead of 2.9)
     int narrowing_conversion_functional (2.9);
     
     
@@ -55,7 +55,7 @@ int main(){
     int bike_count = 2;
     int truck_count = 7;
     int vehicle_count = bike_count +truck_count;
-    int narrowing_conversion_assignment = 2.9;
+    int narrowing_conversion_assignment = 2.9; // WARNING, also will compile but will store as 2 instead of 2.9
 
     std::cout << "Bike count : " << bike_count << std::endl;
     std::cout << "Truck count : " << truck_count << std::endl;

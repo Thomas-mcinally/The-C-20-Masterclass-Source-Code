@@ -15,3 +15,11 @@ int main(){
    
     return 0;
 }
+
+/*
+i.e. can use any number system when declaring number variables in c++
+
+ALL ARE STORED IN THE SAME WAY IN MEMORY (as binary)
+
+So the reason for declaring variables as binary or hex is purely out of convenience (might be convenient if you are dealing with a binary/hex data source)
+*/
