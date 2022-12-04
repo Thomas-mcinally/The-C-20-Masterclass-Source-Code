@@ -17,13 +17,13 @@ int main(){
     */
 
    //for loop : the good way
-    /*
-   for( unsigned int i{0} ; i < 10000 ;++i){
+
+   for( unsigned int i{0} ; i < 10 ;i++){
        //Whatever we want the loop to run
        std::cout << i <<  " : I love C++" << std::endl;
    }
    std::cout << "Loop done!" << std::endl;
-   */
+   
 
   //Use size_t : a representation of some unsigned int for positive numbers [sizes]
   /*
@@ -74,12 +74,12 @@ int main(){
 
    //Don't hard code values : BAD!
 
-    const size_t COUNT{100};
+//     const size_t COUNT{100};
 
-    for(size_t i{0} ; i < COUNT ; ++i){
-        std::cout << i << " : I love C++" << std::endl;
-    }
-    std::cout << "Loop done!" << std::endl;
+//     for(size_t i{0} ; i < COUNT ; ++i){
+//         std::cout << i << " : I love C++" << std::endl;
+//     }
+//     std::cout << "Loop done!" << std::endl;
    
-    return 0;
+//     return 0;
 }
